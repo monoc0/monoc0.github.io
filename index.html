@@ -3,6 +3,8 @@
   <head>
     <title>MonoCHRONOS</title>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+      
       html, body {
         height: 100%;
         margin-top: 20%;
@@ -10,8 +12,10 @@
 
       body {
         background-image: url("background.png");
+        background-size:5rem;
         background-color: black; /* fallback */
         color: white;
+        font-family: Ubuntu, sans-serif
       }
 
       @keyframes spinny0 {
@@ -27,7 +31,8 @@
       }
 
       #spinny {
-        animation: spinny0 2s linear infinite;
+        animation: spinny0 1s linear infinite;
+        font-size: 5rem;
       }
     </style>
   </head>
