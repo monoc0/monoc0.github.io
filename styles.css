@@ -20,17 +20,16 @@
 
 #body {
   background-image: url("background.png");
-  background-size:5em;
-  position:relative;
-  z-index:-20;
-  height:100%;
-  width:100%;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  width:100vh;
 }
 
 body {
-  overflow: none;
+  overflow: hidden;
   background-color: #000;
   color: #fff;
   font-family: Mustard, Ubuntu, sans-serif;
-  font-size: 5rem;
+  font-size: 1em;
 }
