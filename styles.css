@@ -21,6 +21,8 @@
 #body {
   background-image: url("background.png");
   background-size:5em;
+  position:relative;
+  z-index:-20;
 }
 
 body {
