@@ -23,6 +23,8 @@
   background-size:5em;
   position:relative;
   z-index:-20;
+  height:100%;
+  width:100%;
 }
 
 body {
