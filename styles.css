@@ -20,7 +20,7 @@
 
 #body {
   background-image: url("background.png");
-  background-size:cover;
+  background-size:1rem;
   background-position:center;
   height:100vh;
   width:100vh;
