@@ -18,9 +18,12 @@
   font-weight: bold;
 }
 
-body {
+#body {
   background-image: url("background.png");
   background-size:5em;
+}
+
+body {
   overflow: none;
   background-color: #000;
   color: #fff;
