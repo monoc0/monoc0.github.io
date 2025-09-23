@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 @font-face {
   font-family: Mustard;
   src: url('HenrySansRegular.woff') format('woff'),
@@ -18,15 +19,13 @@
   font-weight: bold;
 }
 
-#body {
+body {
   background-image: url("background.png");
   background-size:1rem;
   background-position:center;
   height:100vh;
   width:100vh;
-}
-
-body {
+  backdrop-filter: contrast(-50%)
   overflow: hidden;
   background-color: #000;
   color: #fff;
