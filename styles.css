@@ -78,7 +78,7 @@ h1 {
   text-align: center;
   width: 6.25in;
   height: 6.25in;
-  pointer-events: none; /* Disables all pointer events */
+  pointer-events: none; /* Disables all pointer events */ 
   -webkit-user-drag: none; /* Prevents dragging in WebKit browsers */
   user-select: none; /* Disables text/image selection */
   -moz-user-select: none; /* Firefox-specific */
@@ -90,10 +90,4 @@ h1 {
   display: inline;
   width: 4rem;
   height: 4rem;
-  pointer-events: none; /* Disables all pointer events */
-  -webkit-user-drag: none; /* Prevents dragging in WebKit browsers */
-  user-select: none; /* Disables text/image selection */
-  -moz-user-select: none; /* Firefox-specific */
-  -webkit-user-select: none; /* WebKit-specific */
-  -ms-user-select: none; /* IE/Edge-specific */
 }
