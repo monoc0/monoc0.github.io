@@ -3,20 +3,20 @@
 
 @font-face {
   font-family: Mustard;
-  src: url('HenrySansRegular.woff') format('woff'),
-    url('HenrySansRegular.ttf') format('truetype');
+  src: url('media/HenrySansRegular.woff') format('woff'),
+    url('media/HenrySansRegular.ttf') format('truetype');
   font-weight: normal;
 }
 @font-face {
   font-family: Mustard;
-  src: url('HenrySansBold.woff') format('woff'),
-    url('HenrySansBold.ttf') format('truetype');
+  src: url('media/HenrySansBold.woff') format('woff'),
+    url('media/HenrySansBold.ttf') format('truetype');
   font-weight: bolder;
 }
 @font-face {
   font-family: Mustard;
-  src: url('HenrySansMedium.woff') format('woff'),
-    url('HenrySansMedium.ttf') format('truetype');
+  src: url('media/HenrySansMedium.woff') format('woff'),
+    url('media/HenrySansMedium.ttf') format('truetype');
   font-weight: bold;
 }
 
